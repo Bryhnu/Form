@@ -1,0 +1,159 @@
+/*Aqui começa o Formulário*/
+
+body{
+    background-color: black;
+
+}
+
+
+/*Centralização do meu formulário*/
+.containerForm {
+    /*Deixando o contato e o form em row*/
+    display: flex;
+    /*Distancia lateral*/
+    margin-left: 85px;
+    /*Distancia do topo*/
+    margin-top: 40px;
+    /*Cor de fundo*/
+    background-color: #636363;
+    /*Tamanho horizoltal do container*/
+    width: 1200px;
+    /*Tamanho vertical*/
+    height: 560px;
+    /*arredondando a borda*/
+    border-radius: 70px;
+    /*Fonte*/
+    font-family: 'Noto Sans Mono', monospace;
+    /*Sombra lateral braba*/
+    box-shadow: 8px 8px 10px black;
+}
+
+/*Tamanho do meu box esquerdo*/
+.contato {
+    /*Distancia do topo do conteiner*/
+    margin-top: 10px;
+    /*Distancia lateral*/
+    margin-left: 2.5%;
+    /*Largura da box*/
+    width: 600px;
+}
+
+/*Tamanho do meu box direito*/
+.form {
+    /*Distancia do topo do conteiner*/
+    margin-top: 10px;
+    /*Distancia lateral*/
+    margin-left: 18%;
+    /*Largura da box*/
+    width: 600px;
+}
+
+/*Tamanho do h1*/
+.form h1 {
+    color:#84d627;
+    margin-left: 1px;
+    font-size: 35px;
+}
+
+/*Estilização do h1 e h2*/
+.contato h1,h2 {
+    margin: 20px;
+    color: #84d627;
+    margin-left: 10px;
+    font-size: 32px;
+}
+
+
+
+/*Tamanho do link para contato*/
+.contato a {
+    /* tirando o sublinhado do link */
+    text-decoration: none;
+    color: black;
+    /* se colocar maior que 19.2 o número desce kk  */
+    font-size: 19.2px;
+}
+
+
+/*Estilização da label*/
+label {
+    /*Tamanho vertical*/
+    height: 30px;
+    /*distancia das minhas labels*/
+    margin-top: 15px;
+    /*Display para as labels ficarem na vertical*/
+    display: flex;
+    flex-direction: column;
+    /*Tamanho da fonte*/
+    font-size: 19px;
+}
+
+
+/*Estilizando input e textarea*/
+input,
+textarea {
+    background-color: transparent;
+    /*borda*/
+    border: 2px solid black;
+    /*tirando a borda de cima e da esquerda*/
+    border-top: none;
+    border-left: none;
+    /*Tamanho*/
+    width: 380px;
+    padding: 10px;
+    /* Arredondando as bordas */
+    border-radius: 7px;
+}
+
+/*Cor do placeholder*/
+input::placeholder {
+    /*Tamanho do placeholder*/
+    font-size: 15px;
+    /*Cor*/
+    color: rgba(245, 245, 245, 0.600);
+}
+
+/*Cor do placeholder*/
+textarea::placeholder {
+    /*Tamanho do placeholder*/
+    font-size: 15px;
+    /*Cor*/
+    color: rgba(245, 245, 245, 0.700);
+}
+
+/*Cor e tamanho do botão*/
+button {
+    /*Cor da fonte*/
+    color: #84d627;
+    /*Cor de fundo*/
+    background-color: black;
+    /*Distancia do topo*/
+    margin-top: 10px;
+    /*Tamanho*/
+    height: 30px;
+    width: 70px;
+    /* Arredondando as bordas */
+    border-radius: 7px;
+}
+
+
+button:hover {
+    /* Efeito de quando passar o mouse por cima */
+    background-color: rgb(31, 30, 30);
+    cursor: pointer;
+}
+
+
+/* Tamanho e localização da imagem*/
+.contato img {
+    /* Posição */
+    position: relative;
+    bottom: 11%;
+    margin-left: 45%;
+    /* Tamanho */
+    height: 300px;
+    width: 400px;
+}
+
+
+/*Aqui termina o Formulário*/
